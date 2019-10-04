@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.searchbar {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.searchbar img {
+    padding: 10px 0 0 15px;
+}
+
+.searchbar form {
+    flex: 2;
+}
+
+.searchbar input[type="text"] {
+    height: 35px; 
+    margin-top: 10px;
+    width: 65%;
+    margin-left: 20px;
+    border-radius: 30px;
+    background-image: url("../images/search.png"), url("../images/mic.png");
+    background-position: center left, center right;
+    background-repeat: no-repeat, no-repeat;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.buttons {
+    margin: 15px;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons button {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px 18px;
+    background-color: #4285F4;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #4285F4;
+}
+
+.links {
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 520px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #5F6368;
+
+}
+
+.links a:hover {
+    color: #4285F4;
+}
+
+.right-links {
+    margin-top: 10px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-container {
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-right: 520px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+}
+
+.search-result {
+    margin-top: 20px;
+}
+
+.search-result h3 {
+    font-size: 20px;
+    color: #1A0DAB;
+}
+
+.website-link {
+    margin-top: 4px;
+}
+
+.website-link a {
+    color: #006621;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.search-result p {
+    margin-top: 4px;
+    color: #545454;
+}
+
+.search-result .internal-links {
+    margin-top: 4px;
+}
+
+.search-result .internal-links a {
+    margin-right: 5px;
+    text-decoration: none;
+    color: #1A0DAB;
+}
+
