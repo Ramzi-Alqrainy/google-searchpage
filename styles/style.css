@@ -110,8 +110,13 @@ hr {
 }
 
 .search-result h3 {
+    font-weight: normal;
     font-size: 20px;
     color: #1A0DAB;
+}
+
+.search-result h3:hover {
+    text-decoration: underline;
 }
 
 .website-link {
@@ -139,3 +144,129 @@ hr {
     color: #1A0DAB;
 }
 
+.questions-section {
+    margin-top: 20px;
+    border: 1px solid rgb(229, 229, 229);
+    padding: 10px;
+}
+
+.questions-section h3 {
+    font-size: 20px;
+    color: #222222;
+}
+
+.question {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(229, 229, 229);
+}
+
+.question p {
+    color: #222222;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.feedback {
+    padding-top: 5px;
+    align-self: flex-end;
+    text-decoration: none;
+    color: #70757A;
+}
+
+.feedback:hover {
+    text-decoration: underline;
+}
+
+.similar-searches {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.similar-searches h3 {
+    font-size: 20px;
+    color: #222222;
+    font-weight: normal;
+}
+
+.similar-searches .similar-searches-links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.similar-webpages-links {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.similar-webpages-links a {
+    margin-top: 10px;
+    color: #1A0DAB;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.similar-webpages-links a:hover {
+    text-decoration: underline;
+}
+
+.next-pages {
+    margin-top: 10px;
+    justify-self: center;
+    align-self: center;
+}
+
+.next-pages .next-pages-links {
+    margin-bottom: 20px;
+}
+
+.next-pages .next-pages-links a {
+    margin-right: 7px;
+    text-decoration: none;
+}
+
+.next-pages-links a:hover {
+    text-decoration: underline;
+}
+
+.next-pages-links > a:last-of-type {
+    margin-left: 45px;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    color: #545454;
+    padding-left: 120px;
+    padding-right: 520px;
+    border-top: 1px solid #E4E4E4;
+}
+
+.footer .address {
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 0;
+    border-bottom: 2px solid rgb(228, 228, 228);
+}
+
+.address p {
+    margin-right: 20px;
+}
+
+.address h3 {
+    font-size: 14px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #545454;
+    margin-right: 10px;
+}
+
+.footer .privacy {
+    margin: 10px 0;
+}
