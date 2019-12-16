@@ -14,6 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     position: fixed;
+    background-color: #fdfdfd;
     top: 0;
     width: 100%;
     padding-top: 20px;
@@ -64,7 +65,7 @@ body {
 }
 
 .links {
-    margin-top: 80px;
+    margin-top: 90px;
     margin-left: 120px;
     margin-right: 520px;
     display: flex;
