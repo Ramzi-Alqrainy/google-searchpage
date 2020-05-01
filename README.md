@@ -1,5 +1,5 @@
 # Google searchpage
-> Google searchpage created using Html and Css.
+> Google searchpage created using HTML and CSS.
 
 ## Table of contents
 * [General info](#general-info)
@@ -11,14 +11,14 @@
 * [Contact](#contact)
 
 ## General info
-This project is created to demonstrate basic skills in creating basic structure of web page, positioning and laying out different elements on the web page.
+This project is created to demonstrate skills in creating structure of web page; positioning and laying out different elements on the web page.
 
 ## Screenshots
 ![Example screenshot](/images/project.png)
 
 ## Technologies
-* Html
-* Css
+* HTML
+* CSS
 
 ## Setup
 You can visit the live version of this website [here](https://thisismahmad.github.io/google-searchpage/).
