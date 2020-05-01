@@ -7,13 +7,12 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
 	<link rel="manifest" href="images/favicon/site.webmanifest">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="styles/style.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-
 	<!-- Mobile Header Component -->
 	<header class="header-mobile">
 		<nav class="header-nav">
@@ -40,9 +39,8 @@
 		</nav>
 
 		<form class="header-mobile__form" action="#" method="GET">
-			<input class="searchbar__input" type="text" name="search" id="search" value="build this webpage">
+			<input class="searchbar__input" id="search-mobile" name="search" type="text" value="build this webpage">
 		</form>
-
 	</header>
 
 	<!-- Desktop Header Component -->
@@ -53,7 +51,7 @@
 			</a>
 
 			<form class="searchbar__form" action="#" method="GET">
-				<input class="searchbar__input" type="text" name="search" id="search" value="build this webpage">
+				<input class="searchbar__input" id="search-desktop" name="search" type="text" value="build this webpage">
 			</form>
 		</div>
 
@@ -277,7 +275,7 @@
 			</div>
 
 			<p class="search-result__details">Apr 25, 2019 - Learn how to make a <strong>website</strong> and set it up.
-			This site contains different tutorials on how to <strong>build</strong> a <storng>website</storng> using WordPress, Joomla, Drupal ...</p>
+			This site contains different tutorials on how to <strong>build</strong> a <strong>website</strong> using WordPress, Joomla, Drupal ...</p>
 		</section>
 
 		<section class="search-result">
@@ -351,7 +349,7 @@
 		<section class="related-section">
 			<h4 class="related-section__subtitle">Related Search</h4>
 			<h2 class="related-section__title">Best free website builder</h2>
-			<section class="related-section__components">
+			<div class="related-section__components">
 				<div class="related-section__item">
 					<a href="#">
 						<img src="images/website-builders/wordpress.png" alt="WordPress">
@@ -388,7 +386,7 @@
 						Jimdo
 					</a>
 				</div>
-			</section>
+			</div>
 		</section>
 
 		<!-- Similar Searches Component -->
@@ -429,7 +427,7 @@
 		</section>   
 		
 		<!-- Next Pages Component -->
-		<section class="next-pages">
+		<div class="next-pages">
 
 			<div class="next-pages__logo">
 				<img src="images/goooogle.png" alt="Google Logo">
@@ -450,14 +448,14 @@
 				<a href="#">Next</a>
 			</div>
 
-		</section>
+		</div>
 	</main>
 
 	<!-- Footer Component -->
 	<footer class="footer">
 		<address class="address">
 			<p class="address__country">Pakistan</p>
-			<h3 class="address__city"> <span></span> Multan City, Multan</h3>
+			<p class="address__city"> <span></span> Multan City, Multan</p>
 			<p class="address__location"> <span>-</span> From your internet address 
 				<span>-</span> <a href="#">Use precise location</a> <span>-</span> <a href="#">Learn more</a>
 			</p>
@@ -470,7 +468,7 @@
 		</div>
 	</footer>
 
-	<script defer>
+	<script>
 		const header = document.querySelector('.header');
 		window.addEventListener('scroll', () => {
 			if (window.scrollY >= 100) {
