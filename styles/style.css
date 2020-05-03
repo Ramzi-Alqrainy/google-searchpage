@@ -342,13 +342,9 @@ hr {
 	cursor: pointer;
 }
 
-.questions-section__question svg {
+.questions-section__question img {
 	position: relative;
-	top: 5px;
-	fill: #70757a;
-	-webkit-transform: scale(.6);
-	    -ms-transform: scale(.6);
-	        transform: scale(.6);
+	top: 3px;
 }
 
 .questions__feedback-container {
